@@ -1,0 +1,88 @@
+button
+    background: $deep-blue
+    border: 1px solid $deep-blue
+    border-radius: 3px
+    box-sizing: border-box
+    color: white
+    padding: .3rem
+    max-height: 30px
+    &:active
+        background: $dark-blue
+        border: 1px solid $dark-blue
+        border-radius: 3px
+
+input
+    border: 1px solid $deep-blue
+    border-radius: 3px
+    background: #fff
+    padding: 5px
+    width: 100%
+    max-width: 200px
+
+select
+    border: 1px solid $deep-blue
+    border-radius: 3px
+    background: #fff
+    padding: 5px
+    width: 100%
+
+table
+    font-family: Arial, Helvetica, sans-serif
+    border-collapse: collapse
+    width: 100%
+    overflow-y: scroll
+    height: 20px
+    input
+        border: 0
+        background-color: transparent
+
+table td, #customers th
+    border: 1px solid #ddd
+    padding: 8px
+
+th
+    text-align: left
+    background-color: $deep-blue
+    color: white
+    position: sticky
+    top: 0
+    padding: 8px
+
+tr
+    &:hover
+        background-color: #ddd
+    &.selected
+        background-color: $ligth-blue
+
+.wrapper
+    display: flex
+    width: 100%
+    background: $background-ligth
+    height: auto
+
+.table-container
+    padding: 1rem
+    padding-top: 1.5rem
+    width: 100%
+    height: auto
+
+.table-header
+    display: flex
+    gap: 30px
+    margin-bottom: 15px
+
+.table-wrapper
+    height: 90vh
+    overflow-y: auto
+    width: 100%
+
+.form-wrapper
+    display: flex
+    align-items: center
+    width: 100%
+    max-width: 32%
+    justify-content: space-between
+    flex-wrap: wrap
+    gap: 10px
+    button
+        max-width: 194px

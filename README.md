@@ -1,6 +1,6 @@
 ## Тестово задание на позицию Front-end разработчик в ГК "Адепт"
 
-#### [Вакансия](https://nn.hh.ru/employer/18880)
+#### [Вакансия](https://nn.hh.ru/vacancy/70020352?from=vacancy_search_list&hhtmFrom=vacancy_search_list)
 #### [Резюме](https://nn.hh.ru/resume/34c40e4dff0b0c17950039ed1f467757324430)
 
 Команды для запуска: 
